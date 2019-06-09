@@ -13,6 +13,8 @@ public class AppRunner implements ApplicationRunner{
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
+		
+		System.out.println("from app runner");
 		//option args
 		Set<String> names = args.getOptionNames();
 		System.out.println(names);
